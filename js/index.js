@@ -7,3 +7,8 @@ document.write("hello world");
 console.error("This is an error");
 console.warn("This is warning");
 console.assert(4==6);
+
+
+var number1 = 2;
+var number2 = 2;
+console.log(number1+number2);
