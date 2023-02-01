@@ -240,3 +240,16 @@
 
 // clr = setInterval(logKaro,2000);
 
+
+// localStorage
+
+// localStorage.setItem('name','sanjana')
+
+// localStorage.clear()
+
+// localStorage.setItem('name','sanjana')
+
+// localStorage
+
+// localStorage.getItem('name')
+
