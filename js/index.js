@@ -135,12 +135,22 @@
 
 // break and continue
 
-var red= [1,2,3,4,5,6];
-for(i = 0; i<red.length;i++){
+// var red= [1,2,3,4,5,6];
+// for(i = 0; i<red.length;i++){
 
-    if(i==2){
-        // break;
-        continue;
-    }
-    console.log(red[i]);
-}
+//     if(i==2){
+//         // break;
+//         continue;
+//     }
+//     console.log(red[i]);
+// }
+
+
+// array methods
+
+let gre = [2,3,'jfdsa',null,true];
+// gre.push("rfa");
+// gre.shift();
+// gre.pop();
+
+console.log(gre.unshift('hii'));
