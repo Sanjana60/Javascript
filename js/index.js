@@ -188,12 +188,43 @@
 // console.log(elec[0].innerHTML);
 // console.log(elec[0].innerText);
 
-tn = document.getElementsByTagName('div');
-createdElement = document.createElement('p');
-createdElement.innerText = 'tHIS IS AFE';
-tn[0].appendChild(createdElement);
-console.log(tn);
+// tn = document.getElementsByTagName('div');
+// createdElement = document.createElement('p');
+// createdElement.innerText = 'tHIS IS AFE';
+// tn[0].appendChild(createdElement);
+// console.log(tn);
 
 
 //queryselector - only one and queryselectorAll - all 
+
+// events
+// function clicked(){
+
+//     console.log('This was clicked');
+// }
+
+// window.onload = function(){
+
+//     console.log("hgaiflr");
+// }
+
+// firstcontainer.addEventListener('click', function(){
+//     document.querySelectorAll('.container')[0].innerText = 'Love you';
+//     console.log('hiii');
+// })
+
+// firstcontainer.addEventListener('mouseover', function(){
+//     console.log('sanjana');
+// })
+
+// firstcontainer.addEventListener('mouseout', function(){
+//     console.log('aryan');
+// })
+
+// firstcontainer.addEventListener('mouseup', function(){
+//     console.log('hello');
+// })
+// firstcontainer.addEventListener('mousedown', function(){
+//     console.log('helloooooooooo');
+// })
 
