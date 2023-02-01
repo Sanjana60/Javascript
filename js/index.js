@@ -97,3 +97,22 @@ else if(12<=age<=17){
 else{
     console.log("no");
 }
+
+// loops
+
+// for loops
+
+var sed = [1,2,3,4,5,6,7];
+
+for(i=0;i<sed.length;i++){
+
+    console.log(sed[i]);
+}
+
+
+// for each
+
+sed.forEach(function(element){
+
+    console.log(element);
+})
