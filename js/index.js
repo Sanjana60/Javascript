@@ -157,8 +157,18 @@
 
 // string
 
-let st = ' welcome to my to to class';
-console.log(st.length);
-console.log(st.indexOf('to'));
-console.log(st.lastIndexOf('to'));
-console.log(st.replace("welcome","welcomes"));
+// let st = ' welcome to my to to class';
+// console.log(st.length);
+// console.log(st.indexOf('to'));
+// console.log(st.lastIndexOf('to'));
+// console.log(st.replace("welcome","welcomes"));
+
+
+
+// Date
+
+let mydate = new Date()
+console.log(mydate.getDate());
+console.log(mydate.getFullYear());
+console.log(mydate.getTime());
+
