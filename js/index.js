@@ -104,15 +104,30 @@ else{
 
 var sed = [1,2,3,4,5,6,7];
 
-for(i=0;i<sed.length;i++){
+// for(i=0;i<sed.length;i++){
 
-    console.log(sed[i]);
-}
+//     console.log(sed[i]);
+// }
 
 
 // for each
 
-sed.forEach(function(element){
+// sed.forEach(function(element){
 
-    console.log(element);
-})
+//     console.log(element);
+// })
+
+
+// while
+
+let j =0;
+// while(j<sed.length){
+//     console.log(sed[j]);
+//     j++;
+// }
+
+
+do{
+    console.log(sed[j]);
+    j++;
+}while(j<sed.length);
