@@ -65,3 +65,16 @@ console.log(4==6);
 //logical
 
 console.log(true || false);
+
+
+//functions
+
+function avg(a,b){
+
+    return (a+b)/2;
+}
+
+c1 = avg(10,100);
+c2 = avg(78,90);
+
+console.log(c1,c2);
