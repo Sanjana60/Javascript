@@ -1,108 +1,108 @@
-// ways to print
-console.log("I love you");
-alert("I love you");
-document.write("hello world");
+// // ways to print
+// console.log("I love you");
+// alert("I love you");
+// document.write("hello world");
 
-// console api
-console.error("This is an error");
-console.warn("This is warning");
-console.assert(4==6);
+// // console api
+// console.error("This is an error");
+// console.warn("This is warning");
+// console.assert(4==6);
 
-// variables and data types - primitive and reference
-var number1 = 2;
-var number2 = 2;
-console.log(number1+number2);
+// // variables and data types - primitive and reference
+// var number1 = 2;
+// var number2 = 2;
+// console.log(number1+number2);
 
-var str1 = "aryan";
-var str2 = 'sanjana';
+// var str1 = "aryan";
+// var str2 = 'sanjana';
 
-console.log(str1);
-console.log(str2);
-
-
-var marks = {
-
-    aryan: 56,
-    sanjan:56,
-
-}
-
-console.log(marks);
-
-var a = true;
-var b = false;
-console.log(a,b);
-
-var sun;
-console.log(sun);
-
-var ary = null;
-console.log(ary);
+// console.log(str1);
+// console.log(str2);
 
 
-var arr = [0,1,2,3,4,5,'sanj','aryan'];
-console.log(arr);
-console.log(arr[5]);
+// var marks = {
+
+//     aryan: 56,
+//     sanjan:56,
+
+// }
+
+// console.log(marks);
+
+// var a = true;
+// var b = false;
+// console.log(a,b);
+
+// var sun;
+// console.log(sun);
+
+// var ary = null;
+// console.log(ary);
 
 
-// operators
-
-//arithemtic
-var s =10;
-var e= 10;
-console.log(s+e);
-
-//assignemnt
-
-var c =b;
-c+=2;
-console.log(c);
-
-// comparison
-
-console.log(4==6);
-
-//logical
-
-console.log(true || false);
+// var arr = [0,1,2,3,4,5,'sanj','aryan'];
+// console.log(arr);
+// console.log(arr[5]);
 
 
-//functions
+// // operators
 
-function avg(a,b){
+// //arithemtic
+// var s =10;
+// var e= 10;
+// console.log(s+e);
 
-    return (a+b)/2;
-}
+// //assignemnt
 
-c1 = avg(10,100);
-c2 = avg(78,90);
+// var c =b;
+// c+=2;
+// console.log(c);
 
-console.log(c1,c2);
+// // comparison
+
+// console.log(4==6);
+
+// //logical
+
+// console.log(true || false);
 
 
-// conditional statements
+// //functions
+
+// function avg(a,b){
+
+//     return (a+b)/2;
+// }
+
+// c1 = avg(10,100);
+// c2 = avg(78,90);
+
+// console.log(c1,c2);
 
 
-age = 14;
+// // conditional statements
 
-if(age >= 18){
 
-    console.log("drive");
-}
+// age = 14;
 
-else if(12<=age<=17){
-    console.log("learn");
-}
+// if(age >= 18){
 
-else{
-    console.log("no");
-}
+//     console.log("drive");
+// }
+
+// else if(12<=age<=17){
+//     console.log("learn");
+// }
+
+// else{
+//     console.log("no");
+// }
 
 // loops
 
 // for loops
 
-var sed = [1,2,3,4,5,6,7];
+// var sed = [1,2,3,4,5,6,7];
 
 // for(i=0;i<sed.length;i++){
 
@@ -120,14 +120,27 @@ var sed = [1,2,3,4,5,6,7];
 
 // while
 
-let j =0;
+// let j =0;
 // while(j<sed.length){
 //     console.log(sed[j]);
 //     j++;
 // }
 
 
-do{
-    console.log(sed[j]);
-    j++;
-}while(j<sed.length);
+// do{
+//     console.log(sed[j]);
+//     j++;
+// }while(j<sed.length);
+
+
+// break and continue
+
+var red= [1,2,3,4,5,6];
+for(i = 0; i<red.length;i++){
+
+    if(i==2){
+        // break;
+        continue;
+    }
+    console.log(red[i]);
+}
