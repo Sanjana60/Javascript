@@ -148,9 +148,17 @@
 
 // array methods
 
-let gre = [2,3,'jfdsa',null,true];
-// gre.push("rfa");
-// gre.shift();
-// gre.pop();
+// let gre = [2,3,'jfdsa',null,true];
+// // gre.push("rfa");
+// // gre.shift();
+// // gre.pop();
 
-console.log(gre.unshift('hii'));
+// console.log(gre.unshift('hii'));
+
+// string
+
+let st = ' welcome to my to to class';
+console.log(st.length);
+console.log(st.indexOf('to'));
+console.log(st.lastIndexOf('to'));
+console.log(st.replace("welcome","welcomes"));
