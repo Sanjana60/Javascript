@@ -228,3 +228,15 @@
 //     console.log('helloooooooooo');
 // })
 
+
+// setinterval and settimeout
+
+// function logKaro(){
+//     document.querySelectorAll('.container')[0].innerText = 'Love you';
+//     console.log('hiii');
+// }
+// // setTimeout(logKaro,2000);
+// // setInterval(logKaro,2000);
+
+// clr = setInterval(logKaro,2000);
+
