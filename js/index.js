@@ -8,7 +8,7 @@ console.error("This is an error");
 console.warn("This is warning");
 console.assert(4==6);
 
-
+// variables and data types - primitive and reference
 var number1 = 2;
 var number2 = 2;
 console.log(number1+number2);
@@ -43,3 +43,25 @@ console.log(ary);
 var arr = [0,1,2,3,4,5,'sanj','aryan'];
 console.log(arr);
 console.log(arr[5]);
+
+
+// operators
+
+//arithemtic
+var s =10;
+var e= 10;
+console.log(s+e);
+
+//assignemnt
+
+var c =b;
+c+=2;
+console.log(c);
+
+// comparison
+
+console.log(4==6);
+
+//logical
+
+console.log(true || false);
