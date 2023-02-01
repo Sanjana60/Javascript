@@ -167,8 +167,33 @@
 
 // Date
 
-let mydate = new Date()
-console.log(mydate.getDate());
-console.log(mydate.getFullYear());
-console.log(mydate.getTime());
+// let mydate = new Date()
+// console.log(mydate.getDate());
+// console.log(mydate.getFullYear());
+// console.log(mydate.getTime());
+
+
+
+// DOM manipulation
+
+
+// let ele = document.getElementById('Click');
+// console.log(ele);
+
+// let elec = document.getElementsByClassName('container');
+// elec[0].style.background = 'yellow';
+// elec[0].classList.add("bg-primary");
+// console.log(elec);
+
+// console.log(elec[0].innerHTML);
+// console.log(elec[0].innerText);
+
+tn = document.getElementsByTagName('div');
+createdElement = document.createElement('p');
+createdElement.innerText = 'tHIS IS AFE';
+tn[0].appendChild(createdElement);
+console.log(tn);
+
+
+//queryselector - only one and queryselectorAll - all 
 
