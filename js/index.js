@@ -78,3 +78,22 @@ c1 = avg(10,100);
 c2 = avg(78,90);
 
 console.log(c1,c2);
+
+
+// conditional statements
+
+
+age = 14;
+
+if(age >= 18){
+
+    console.log("drive");
+}
+
+else if(12<=age<=17){
+    console.log("learn");
+}
+
+else{
+    console.log("no");
+}
