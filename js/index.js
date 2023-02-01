@@ -247,9 +247,25 @@
 
 // localStorage.clear()
 
+//localStorage.removeItem('name')
+
 // localStorage.setItem('name','sanjana')
 
 // localStorage
 
 // localStorage.getItem('name')
+
+
+// JSON
+
+// obj = {name : 'sanjana', length: 1, a: {this:'tha"t'}};
+// jso = JSON.stringify(obj);
+// console.log(jso);
+// console.log(typeof jso);
+
+
+// parsed = JSON.parse(`{"name":"sanjana","length":1,"a":{"this":"tha\\"t"}}
+// `)
+
+// console.log(parsed);
 
